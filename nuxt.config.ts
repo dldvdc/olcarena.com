@@ -7,3 +7,4 @@ export default defineNuxtConfig({
     preset: 'cloudflare-pages'
   }
 })
+
