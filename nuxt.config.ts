@@ -4,9 +4,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
   nitro: {
-    prerender: {
-      autoSubfolderIndex: false
-    }
+    preset: 'cloudflare-pages'
   }
 })
-
